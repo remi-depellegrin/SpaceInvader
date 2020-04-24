@@ -26,10 +26,6 @@ public class SpaceInvaders
 		vaisseau = new Vaisseau(x, y); 
 	}
     
-    @Override
-	public String toString() {
-		return recupererEspaceJeuDansChaineASCII();
-	}
 
 	public String recupererEspaceJeuDansChaineASCII() {
 		StringBuilder espaceDeJeu = new StringBuilder();
@@ -57,6 +53,10 @@ public class SpaceInvaders
 
 	private boolean aUnVaisseau() {
 		return vaisseau!=null;
+	}
+
+	public void deplacerVaisseauVersLaDroite() {
+        if (vaisseau.abscisse()< (longueur-1)) vaisseau.seDeplacerVersLaDroite();
 	}
     
 }
