@@ -1,6 +1,7 @@
 # SpaceInvader
 # 16/04/2020
 Crétion du projet SpaceInvader
+
 #Semaine n°1 : du 20 au 24 avril
 Sprints et fonctionnalités réalisées
 Fonctionnalité n°1 : Déplacer un vaisseau dans l'espace de jeu (fini)
@@ -33,4 +34,20 @@ Difficultés rencontrées
 
 Aucune
 
+#Semaine n°2 : du 04 au 08 mai
 
+Fonctionnalité n°2 : Dimensionner le vaiseau (en cours)
+
+Etape n°1	: en cours d'implémentation
+
+Fonctionalité en cour d'implémentation : Fonctionalité n°2
+
+#Diagramme :
+Pas de diagrame car casiement aucune avancé
+
+#Nuage de mots 
+même chose
+
+Difficultés rencontré :
+30-45 minutes de perdu a trouver estDansEspaceJeu et 20 minutes de perdu pour refaire le README du a un problème lors d'un push.
+Du coup pour pallier a ca je fais le README sur eclipse et je commit/push après.
