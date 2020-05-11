@@ -38,9 +38,9 @@ Aucune
 
 Fonctionnalité n°2 : Dimensionner le vaiseau (en cours)
 
-Etape n°1	: en cours d'implémentation
+Etape n°1	: Le positionnement du vaiseau à bien était implémenté.
 
-Fonctionalité en cour d'implémentation : Fonctionalité n°2
+Etape 2 : Implémentation en cours de fonctionalité qui fait en sorte qu'il soit impossible de positionner un nouveau vaisseau qui déborde de l'espace de jeu 
 
 #Diagramme :
 Pas de diagrame car casiement aucune avancé
