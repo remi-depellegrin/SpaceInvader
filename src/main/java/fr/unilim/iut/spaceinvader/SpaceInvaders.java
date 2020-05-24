@@ -1,4 +1,4 @@
-package fr.unilim.iut.spaceinvader;
+	package fr.unilim.iut.spaceinvader;
 
 import fr.unilim.iut.spaceinvaders.utils.DebordementEspaceJeuException;
 import fr.unilim.iut.spaceinvaders.utils.HorsEspaceJeuException;
@@ -61,7 +61,6 @@ public class SpaceInvaders
 		if(vaisseau.abscisseLaPlusAGauche()>0 ) vaisseau.seDeplacerVersLaGauche();
 		
 	}
-
 
 	public void positionnerUnNouveauVaisseau(int longueur, int hauteur, int x, int y) {
 		if (!estDansEspaceJeu(x, y))

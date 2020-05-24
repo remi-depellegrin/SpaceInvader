@@ -51,3 +51,13 @@ même chose
 Difficultés rencontré :
 30-45 minutes de perdu a trouver estDansEspaceJeu et 20 minutes de perdu pour refaire le README du a un problème lors d'un push.
 Du coup pour pallier a ca je fais le README sur eclipse et je commit/push après.
+
+# Semaines n°3-4 : 11 au 22 mai
+
+Implémentation de la fonctionnalité permettant de faire en sorte qu'il soit impossible de positionner un nouveau vaisseau qui déborde de l'espace de jeu 
+
+#Diagramme de classes
+
+
+#Nuage de mots du projet spaceinvaderq ( séance n°3)
+

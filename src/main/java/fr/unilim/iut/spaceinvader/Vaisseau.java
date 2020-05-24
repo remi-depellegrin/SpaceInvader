@@ -6,11 +6,7 @@ public class Vaisseau {
     int y;
     int longueur;
     int hauteur;
-
-    public Vaisseau(int longueur, int hauteur) {
-		this(longueur, hauteur, 0, 0);
-	}
-
+    
     public Vaisseau(int longueur, int hauteur, int x, int y) 
     {
 	   this.longueur=longueur;
@@ -19,6 +15,9 @@ public class Vaisseau {
 	   this.y = y;
     }
 
+    public Vaisseau(int longueur, int hauteur) {
+		this(longueur, hauteur, 0, 0);
+	}
     public boolean occupeLaPosition(int x, int y) {
 	     return (estAbscisseCouverte(x) && estOrdonneeCouverte(y));
     }
