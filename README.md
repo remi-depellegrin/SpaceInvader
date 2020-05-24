@@ -57,7 +57,7 @@ Du coup pour pallier a ca je fais le README sur eclipse et je commit/push après
 Fin de l'implémentation de la fonctionnalité permettant de faire en sorte qu'il soit impossible de positionner un nouveau vaisseau qui déborde de l'espace de jeu.
 Fin d'implémentation de déplacer un vaisseau vers la droite en tenant compte de sa dimension.
 
-
+Implémentation en cours : Déplacer un vaisseau vers la gauche en tenant compte de sa dimension 
 #Diagramme de classes
 
 

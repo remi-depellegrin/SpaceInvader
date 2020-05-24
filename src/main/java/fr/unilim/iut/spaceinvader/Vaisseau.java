@@ -1,19 +1,19 @@
 package fr.unilim.iut.spaceinvader;
 
+import fr.unilim.iut.spaceinvaders.utils.Position;
+
 public class Vaisseau {
 
-    int x;
-    int y;
+
     int longueur;
     int hauteur;
+    Position origine;
     
-    public Vaisseau(int longueur, int hauteur, int x, int y) 
-    {
-	   this.longueur=longueur;
-	   this.hauteur=hauteur;
-	   this.x = x;
-	   this.y = y;
-    }
+    public Vaisseau(int longueur, int hauteur, int x, int y) {
+ 	   this.longueur=longueur;
+ 	   this.hauteur=hauteur;
+ 	   this.origine = new Position (x,y);
+ 	   }
 
     public Vaisseau(int longueur, int hauteur) {
 		this(longueur, hauteur, 0, 0);
@@ -27,7 +27,7 @@ public class Vaisseau {
 	}
 
 	private int ordonneeLaPlusHaute() {
-		return this.y;
+		return this.origine.ordonnee();
 	}
 
 	private int ordonneeLaPlusBasse() {
@@ -39,7 +39,7 @@ public class Vaisseau {
 	}
 
 	public int abscisseLaPlusADroite() {
-		return this.x+this.longueur-1;
+		return this.origine.abscisse() + this.longueur-1;
 	}
     
     public void positionner(int x, int y) {
@@ -53,7 +53,7 @@ public class Vaisseau {
 	}
 	
 	public int abscisseLaPlusAGauche() {
-        return this.x;
+        return this.origine.abscisse();
 	}
 
 	public void seDeplacerVersLaGauche() 
